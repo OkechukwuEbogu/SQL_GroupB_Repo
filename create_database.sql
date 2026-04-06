@@ -94,6 +94,8 @@ CREATE TABLE UserAccount (
 
 	FOREIGN KEY (PropertyID) REFERENCES Property (PropertyID),
 
+	FOREIGN KEY (LeaseID) REFERENCES LeaseTerms (LeaseID),
+
 	FOREIGN KEY (WorkspaceTypeID) REFERENCES WorkspaceType (WorkspaceTypeID),
 
 	SeatingCapacity INT NOT NULL,
