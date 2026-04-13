@@ -39,8 +39,6 @@ VALUES
 ('Training Room'),
 ('Event Space');
 
-select * from Provinces 
-
 
 INSERT INTO Provinces 
 VALUES
